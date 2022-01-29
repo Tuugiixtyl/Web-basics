@@ -1,0 +1,13 @@
+body {
+    padding-top: 3.5rem;
+  }
+  hr
+  {
+    width: 900px;
+    text-align: center;
+  }
+  .copyright
+  {
+    text-align: center;
+    color: rgb(143, 143, 143);
+  }

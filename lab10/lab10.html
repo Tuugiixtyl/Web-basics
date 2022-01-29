@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuugii_Lab_10</title>
+    <style type="text/css">
+        p{font-size: 36px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: bold;}
+        .pp{margin: 0 0 0 96px;}
+        td{padding: 2px;}
+        div{background-color: aquamarine; width: 1080px; margin: auto;}
+    </style>
+</head>
+<body>   
+    <div>
+    <fieldset style="width: 960px; margin: auto;">
+        <legend><p>Ерөнхий мэдээлэл</p></legend>
+        <form action="#" method="GET">
+            <table class="pp">
+                <tr>
+                    <td style="text-align: right; font-family: 'Times New Roman', Times, serif; width: 50px;">
+                        Овог
+                    </td>
+                    <td style="color: red; width: 10px;">
+                        *
+                    </td>
+                    <td>
+                        <input type="text" id="fname" name="fname" value="">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; font-family: 'Times New Roman', Times, serif; width: 50px;">
+                        Нэр
+                    </td>
+                    <td style="color: red; width: 10px;">
+                        *
+                    </td>
+                    <td>
+                        <input type="text" id="fname" name="fname" value="">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; font-family: 'Times New Roman', Times, serif; width: 50px;">
+                        Хүйс
+                    </td>
+                    <td style="color: red; width: 10px;">
+                        *
+                    </td>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Эрэгтэй</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Эмэгтэй</label>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Хэлмээргүй байна</label>
+                    </td>               
+                </tr>
+                <tr>
+                    <td style="text-align: right; font-family: 'Times New Roman', Times, serif; width: 50px;">
+                        Улс
+                    </td>
+                    <td style="color: red; width: 10px;">
+                        *
+                    </td>
+                    <td>
+                        <select id="bolovsrol" name="edu" class="combo_box">
+                            <option value="-1" selected="selected">[сонгох]</option>
+                            <option value="Япон" > Япон</option>
+                            <option value="Монгол" > Монгол</option>
+                            <option value="Атлантис" > Атлантис</option>
+                            <option value="Гэрээсээ" > Гэрээсээ</option>
+                        </select>
+                    </td>
+                </tr>
+                
+                
+            </table >
+
+            <tr>
+                <td style="text-align: left; font-family: 'Times New Roman', Times, serif; width: 50px;">
+                    <a style="font-weight:normal; font-size:17px;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; padding-left: 178px;">
+                        Та өөрийн оршин суугаа улсаа сонгоно уу.</a>
+                </td>
+            </tr>
+            
+            <table style="padding-left: 80px">
+                <tr>
+                    <td style="text-align: right; font-family: 'Times New Roman', Times, serif; width: 50px;">
+                        Гар утас
+                    </td>
+                    <td style="color: red; width: 10px;">
+                        *
+                    </td>
+                    <td>
+                        <input type="text" id="fname" name="fname" value="">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; font-family: 'Times New Roman', Times, serif; width: 50px;">
+                        Username
+                    </td>
+                    <td style="color: red; width: 10px;">
+                        *
+                    </td>
+                    <td>
+                        <input type="text" id="fname" name="fname" value="">
+                    </td>
+                    <td style="text-align: right; font-family: 'Times New Roman', Times, serif; 
+                    width: 50px; color: gray; font-weight: bold;">
+                        @mandakh
+                    </td>
+                </tr>
+            </table>
+
+            <tr>
+                <td style="text-align: left; font-family: 'Times New Roman', Times, serif; width: 50px;">
+                    <a style="font-weight:normal; font-size:17px;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; padding-left: 178px;">
+                        Латин үсгээр a-z , 0-9 ID-ны дунл хэсэгт доогуур зураас болон цэг байж болно.</a>
+                </td>
+            </tr>
+
+        <table style="padding-left: 85px">
+            <tr>
+                <td style="text-align: right; font-family: 'Times New Roman', Times, serif; width: 60px;">
+                    Нууц үг
+                </td>
+                <td style="color: red; width: 10px;">
+                    *
+                </td>
+            <td>
+                <input type="password" id="fname" name="fname" value="">
+            </td>
+        </tr>
+    </table>
+
+    <tr>
+        <td style="text-align: left; font-family: 'Times New Roman', Times, serif; width: 50px;">
+            <a style="font-weight:normal; font-size:17px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; padding-left: 178px;">
+                Латин үсгээр 6-н тэмдэгтээс багагүй байх шаардлагатай.</a>
+        </td>
+    </tr>
+
+        </form>
+    </fieldset>
+    </div>
+
+    <div>
+        <fieldset style="width: 960px; margin: auto;">
+            <legend><p>Нууцлалын Хэсэг</p></legend>
+            <form action="#" method="GET">
+                <table style="margin: 0 0 0 15px;">
+                    <tr>
+                        <td style="text-align: right; font-family: 'Times New Roman', Times, serif; width: 135px;">
+                            Нууц асуулт
+                        </td>
+                        <td style="color: red; width: 10px;">
+                            *
+                        </td>
+                        <td>
+                            <select id="bolovsrol" name="edu" class="combo_box">
+                                <option value="-1" selected="selected">[сонгох]</option>
+                                <option value="PLOT" > Мартагдашгүй, сэтгэлд хоногшсон PLOT TWIST </option>
+                                <option value="ANGEL" > Сахиусан Тэнгэр??? </option>
+                                <option value="DUO" > SOLO??? </option>
+                                <option value="ABSOLUTE" > SCI-FI??? </option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; font-family: 'Times New Roman', Times, serif; width: 135px;">
+                            Нууц хариулт
+                        </td>
+                        <td style="color: red; width: 10px;">
+                            *
+                        </td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; font-family: 'Times New Roman', Times, serif; width: 135px;">
+                            Төрсөн Огноо
+                        </td>
+                        <td style="color: red; width: 10px;">
+                            *
+                        </td>
+                        <td>
+                            <select name="Year" id="BirthDate">
+                                <option value="-1" selected="selected"> Жил </option>
+                                <option value="001"> 1999 </option>
+                                <option value="002"> 2000 </option>
+                                <option value="003"> 2001 </option>
+                                <option value="004"> 2002 </option>
+                                <option value="005"> 2003 </option>
+                                <option value="006"> 2004 </option>
+                            </select>
+                            <select name="Month" id="BirthDate">
+                                <option value="-1" selected="selected"> Сар </option>
+                                <option value="January"> 1-р сар </option>
+                                <option value="Feb"> 2-р сар </option>
+                                <option value="March"> 3-р сар </option>
+                                <option value="April"> 4-р сар </option>
+                                <option value="May"> 5-р сар </option>
+                                <option value="June"> 6-р сар </option>
+                                <option value="July"> 7-р сар </option>
+                                <option value="August"> 8-р сар </option>
+                                <option value="September"> 9-р сар </option>
+                                <option value="October"> 10-р сар </option>
+                                <option value="Nov"> 11-р сар </option>
+                                <option value="Dec"> 12-р сар </option>
+                            </select>
+                            <select name="Day" id="BirthDate">
+                                <option value="-1" selected="selected"> Өдөр </option>
+                                <option value="01"> 1 </option>
+                                <option value="02"> 2 </option>
+                                <option value="03"> 3 </option>
+                                <option value="04"> 4 </option>
+                                <option value="05"> 5 </option>
+                                <option value="06"> 6 </option>
+                                <option value="07"> 7 </option>
+                                <option value="08"> 8 </option>
+                                <option value="09"> 9 </option>
+                                <option value="10"> 10 </option>
+                                <option value="11"> 11 </option>
+                                <option value="12"> 12 </option>
+                                <option value="13"> 13 </option>
+                                <option value="14"> 14 </option>
+                                <option value="15"> 15 </option>
+                                <option value="16"> 16 </option>
+                                <option value="17"> 17 </option>
+                                <option value="18"> 18 </option>
+                                <option value="19"> 19 </option>
+                                <option value="20"> 20 </option>
+                                <option value="21"> 21 </option>
+                                <option value="22"> 22 </option>
+                                <option value="23"> 23 </option>
+                                <option value="24"> 24 </option>
+                                <option value="25"> 25 </option>
+                                <option value="26"> 26 </option>
+                                <option value="27"> 27 </option>
+                                <option value="28"> 28 </option>
+                                <option value="29"> 29 </option>
+                                <option value="30"> 30 </option>
+                                <option value="31"> 31 </option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; font-family: 'Times New Roman', Times, serif; width: 100px;">
+                            Өөрийн<br> и-мэйл хаяг
+                        </td>
+                        <td style="color: red; width: 10px;">
+                            *
+                        </td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+                </table>
+                <tr>
+                    <td style="text-align: left; font-family: 'Times New Roman', Times, serif; width: 50px;">
+                        <a style="font-weight:normal; font-size:17px;
+                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; padding-left: 175px;">
+                            Аюулгүй байдлын үүднээс буюу нууц үгээ мартах үед
+                            сэргээхэд хэрэглэгдэх хаягаа оруулна уу.
+                        </a>
+                    </td>
+                </tr>
+            </form>
+        </fieldset>        
+    </div>
+    <div>
+        <fieldset style="width: 960px; margin: auto;">
+            <legend><p>Хувийн мэдээлэл</p></legend>
+            <form action="#" method="GET">
+                <table style="margin: 0 0 0 15px;">
+                    <tr>
+                        <td style="text-align: right; font-family: 'Times New Roman', Times, serif; width: 135px;">
+                            Боловсрол
+                        </td>
+                        <td style="color: red; width: 10px;">
+                            *
+                        </td>
+                        <td>
+                            <select name="Education" id="edu">
+                                <option value="-1" selected="selected">[сонгох]</option>
+                                <option value="High">Дээд</option>
+                                <option value="Medium">Дунд</option>
+                                <option value="Low">Доод</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; font-family: 'Times New Roman', Times, serif; width: 135px;">
+                            Ажил мэргэжил
+                        </td>
+                        <td style="color: red; width: 10px;">
+                            *
+                        </td>
+                        <td>
+                            <select name="Education" id="edu">
+                                <option value="-1" selected="selected">[сонгох]</option>
+                                <option value="Official">Албан</option>
+                                <option value="Unofficial">Албан бус</option>
+                                <option value="Donthv">Ажилгүй</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; font-family: 'Times New Roman', Times, serif; width: 135px;">
+                            Ажлын газар
+                        </td>
+                        <td style="color: red; width: 10px;">
+                            *
+                        </td>
+                        <td>
+                            <select name="Education" id="edu">
+                                <option value="-1" selected="selected">[сонгох]</option>
+                                <option value="Official">Байгаа</option>
+                                <option value="Unofficial">Байхгүй</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+    </div>
+    <div>
+        <fieldset style="width: 960px; margin: auto;">
+            <legend><p>Үйлчилгээний нөхцөл</p></legend>
+            <form action="#" method="GET">
+                <textarea name="Proof" id="proof" cols="80" rows="10" readonly="readonly" style="padding-left: 15px;">
+                    1. ACCEPTANCE OF TERMS
+a. Welcome to Yahoo. Yahoo provides Yahoo Mail and Yahoo Messenger (the
+“Services”), all of which are subject to the terms and conditions of this Additional
+Terms of Service (“ATOS”) and the applicable Yahoo Universal Terms of . . . 
+                </textarea>
+                <br>
+                <button>
+                    Зөвшөөрөх
+                </button>
+                <button style="margin-left: 15px;">
+                    Татагалзах
+                </button>
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>
